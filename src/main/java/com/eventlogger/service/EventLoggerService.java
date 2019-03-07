@@ -58,6 +58,7 @@ public class EventLoggerService {
 					} else {
 						m.put(loggerModel.getId(), inner);
 					}
+					m.remove(loggerModel.getId());
 				} else {
 					m.put(loggerModel.getId(), inner);
 				}
